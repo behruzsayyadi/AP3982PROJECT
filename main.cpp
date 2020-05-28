@@ -9,8 +9,8 @@ void print (CHuman a)
 }
 int main ()
 {
-    CHuman me;
-    print(3);
+    CHuman me (20,"behruz");
+    print(me);
     // cout << "Hello World!!" << endl;
     return 0;
 }
